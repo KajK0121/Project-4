@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Prediction App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Diabetes Prediction App</h1>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <!-- Input Form -->
+                <form id="diabetesPredictionForm">
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                    </select>
+
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" required min="18" max="75">
+
+                    <label for="bmi">BMI:</label>
+                    <input type="number" id="bmi" name="bmi" step="0.1" required>
+
+                    <label for="hba1c">HbA1c Level:</label>
+                    <input type="number" id="hba1c" name="hba1c" step="0.1" required>
+
+                    <label for="bloodGlucose">Blood Glucose Level:</label>
+                    <input type="number" id="bloodGlucose" name="bloodGlucose" required>
+
+                    <button type="button" class="btn btn-primary mt-3" onclick="predict()">Predict</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <!-- Prediction Result -->
+                <div id="predictionResult" class="mt-3"></div>
+            </div>
+        </div>
+        <!-- Plotly Visualization -->
+        <div id="plotlyChart" class="mt-5"></div>
+    </div>
+
+    <!-- Plotly CDN -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!-- Your JavaScript file -->
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+
+</html>
+
