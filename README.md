@@ -5,7 +5,7 @@ Final Project
 
 # Predicting Diabetes onset : A Machine learning Journey
 
-## : Table of Contents
+## Table of Contents
 
 * [Introduction](#Introduction)
 * [Data Overview](#Data_Overview)
@@ -49,6 +49,13 @@ We then exported the cleaned data to SQLite and tested the database in Jupyter N
 * [Support Vector machine](#Support_Vector_machine)
 * [Decision Trees](#Decision_Trees)
 
+### Logistic Regression
+
+### The Random Forest Classifier
+
+### Support Vector machine
+
+### Decision Trees
 
 
 ## Results
