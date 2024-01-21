@@ -50,13 +50,17 @@ We then exported the cleaned data to SQLite and tested the database in Jupyter N
 * [Decision Trees](#Decision_Trees)
 
 #### Logistic Regression
+<img width="985" alt="lrpic" src="https://github.com/KajK0121/Project-4/assets/140313204/e974c1ba-b9ed-404d-b209-8d13a299369d">
 
 #### The Random Forest Classifier
+<img width="900" alt="rrr" src="https://github.com/KajK0121/Project-4/assets/140313204/f4832ffc-ed31-46fb-9ea8-982f707551c6">
 
 #### Support Vector machine
+<img width="922" alt="ssss" src="https://github.com/KajK0121/Project-4/assets/140313204/57370a5a-08bb-4251-a4c1-5dee419222c8">
 
 #### Decision Trees
 
+<img width="848" alt="ssj" src="https://github.com/KajK0121/Project-4/assets/140313204/9044205d-dc5a-4f0b-b57f-8023108cbd4c">
 
 ## Results
 
