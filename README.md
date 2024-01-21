@@ -38,6 +38,18 @@ We then exported the cleaned data to SQLite and tested the database in Jupyter N
 <img width="500" alt="image" src="https://github.com/KajK0121/Project-4/assets/140313204/85040ac1-7382-4be7-b590-1626b1ae0a83">
 
 ## Designing-Models
+<img width="500" alt="image" src="https://github.com/KajK0121/Project-4/assets/140313204/76b68c3d-3b6a-4af7-8c36-97f3d89e1b20">
+
+<img width="600" alt="image" src="https://github.com/KajK0121/Project-4/assets/140313204/ae566b25-7718-45d7-8318-ebdb73b6f421">
+
+### Algorithms 
+
+* Logistic Regression
+* The Random Forest Classifier
+* Support Vector machine
+* Decision Trees
+
+
 
 ## Results
 
