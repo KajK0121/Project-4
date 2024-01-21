@@ -1,7 +1,7 @@
 # Project-4
 Final Project
 
-### Team : Temitope Ajose – Adeogun Kaj Kabilan, Tamunosaki Miller, Esala kaluperuma, Kaiser
+### Team : Temitope Ajose – Adeogun, Kaj Kabilan, Tamunosaki Miller, Esala kaluperuma, Kaiser
 
 # Predicting Diabetes onset : A Machine learning Journey
 
