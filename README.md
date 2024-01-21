@@ -44,10 +44,10 @@ We then exported the cleaned data to SQLite and tested the database in Jupyter N
 
 ### Algorithms 
 
-* Logistic Regression
-* The Random Forest Classifier
-* Support Vector machine
-* Decision Trees
+* [Logistic Regression](#Logistic-Regression)
+* [The Random Forest Classifier](#The_Random_Forest_Classifier)
+* [Support Vector machine](#Support_Vector_machine)
+* [Decision Trees](#Decision_Trees)
 
 
 
