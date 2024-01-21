@@ -49,13 +49,13 @@ We then exported the cleaned data to SQLite and tested the database in Jupyter N
 * [Support Vector machine](#Support_Vector_machine)
 * [Decision Trees](#Decision_Trees)
 
-### Logistic Regression
+#### Logistic Regression
 
-### The Random Forest Classifier
+#### The Random Forest Classifier
 
-### Support Vector machine
+#### Support Vector machine
 
-### Decision Trees
+#### Decision Trees
 
 
 ## Results
