@@ -48,7 +48,7 @@ We then exported the cleaned data to SQLite and tested the database in Jupyter N
 
 ## Dataset_Visalisations
 
-Here are some images showcasing the various factors in our dataset and relationships they have with one another. This is all plays a part in the prediction of diabetes.
+Here are some images showcasing the various factors in our dataset and their characteristics. This is all plays a part in the prediction of diabetes.
 
 ### Distribution of HbA1c Level
 <img width="600" alt="image" src="https://github.com/KajK0121/Project-4/assets/140313204/14fe07ee-e75b-4bc9-b72a-5c3aefa76166">
@@ -64,9 +64,26 @@ Looking at the Gender Distribution Chart we can see females dominate the dataset
 ### BMI-Frequency Histogram & Distribution of Blood Glucose Chart
 <img width="700" alt="22" src="https://github.com/KajK0121/Project-4/assets/140313204/bf00681b-0d2e-4303-a8e6-606004cd9316">
 
-1) A large proportion of the dataset consists of blood glucose levels between 50 and 200. The proportion of the dataset with blood glucose levels over 200 is very small.
+1) It is approximately normally distributed, although a single outlier bin appears in the centre. The curved line shows the smoothed estimation of BMI, indicating a peak at the centre due to the outlier
+2) A large proportion of the dataset consists of blood glucose levels between 50 and 200. The proportion of the dataset with blood glucose levels over 200 is very small.
 
-2)It is approximately normally distributed, although a single outlier bin appears in the centre. The curved line shows the smoothed estimation of BMI, indicating a peak at the centre due to the outlier
+### Relationships
+
+These 5 visualisations showcases the relationship between our variables and see if there is any correlation between them.
+
+#### Scatter Plots
+<img width="800" alt="4" src="https://github.com/KajK0121/Project-4/assets/140313204/01356a7d-0b4e-44e8-8e4c-693872a09d15">
+
+The scatter plots of features show no visual correlation between each other, indicating no linear relationship.
+
+#### Heatmap
+
+<img width="800" alt="image" src="https://github.com/KajK0121/Project-4/assets/140313204/a06042a0-f913-4706-bade-67421f7d19d8">
+
+The heatmap provides detailed numerical values of correlation for each pair of features. The highest correlation is between blood glucose and diabetes, while the lowest correlation is between BMI and HbA1c. There are no negative correlations, but some correlations can be negligible.
+
+
+
 
 
 
