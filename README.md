@@ -1,4 +1,4 @@
-# Project-4
+![image](https://github.com/KajK0121/Project-4/assets/140313204/54ee9fd4-e2ca-4dd0-bd98-896988b14fa8)# Project-4
 Final Project
 
 ### Team : Temitope Ajose – Adeogun, Kaj Kabilan, Tamunosaki Miller, Esala kaluperuma, Kaiser
@@ -10,6 +10,7 @@ Final Project
 * [Introduction](#Introduction)
 * [Data Overview](#Data_Overview)
 * [Cleaning and Handling the Data](#Data_Cleaning)
+* [Dataset_Visualisations](Dataset_Visalisations)
 * [Designing Models](#Designing-Models)
 * [Results](#Results)
 * [Challenges](#Challenges)
@@ -20,11 +21,21 @@ Final Project
 
 We're on a mission to use medical info like age, gender, BMI, and blood glucose levels to predict if someone is likely to have diabetes. The dataset covers ages 18 to 75, with each person giving us important details.
 
+<img width="400" alt="image" src="https://github.com/KajK0121/Project-4/assets/140313204/9c862f4e-d654-4ba0-9188-4277147f2a3e">
+
 We're exploring this data to find patterns that could help us spot diabetes early. By using simple and detailed info, we hope to make predictions that can be useful for both people and doctors. Our aim is to use data to make healthcare decisions that aren't just reactions but are based on information, helping both patients and healthcare providers.
 
 So, let's dive into this medical data and see if we can find signs of diabetes and maybe even prevent it.
 
 ## Data_Overview
+
+We defined our machine learning workflow in 4 stages:
+
+* Data Collection & Preprocessing of Data
+* Identifying Suitable Prediction Algorithms (Models)
+* Model Training & Validation
+* Performance Assessment (Results)
+
 
 ## Data_Cleaning
 We read in the csv onto jupyter notebook in order to clean the data. The codes below shows how we removed any null values and 0 values. Our dataset was pretty clean as it was.
@@ -34,6 +45,25 @@ We read in the csv onto jupyter notebook in order to clean the data. The codes b
 We then exported the cleaned data to SQLite and tested the database in Jupyter Notebook
 <img width="493" alt="image" src="https://github.com/KajK0121/Project-4/assets/140313204/5a051fba-898f-4549-a771-aa4aaacf7370">
 <img width="500" alt="image" src="https://github.com/KajK0121/Project-4/assets/140313204/85040ac1-7382-4be7-b590-1626b1ae0a83">
+
+## Dataset_Visalisations
+
+Here are some images showcasing the various factors in our dataset and relationships they have with one another. This is all plays a part in the prediction of diabetes.
+
+### Distribution of HbA1c Level
+<img width="400" alt="image" src="https://github.com/KajK0121/Project-4/assets/140313204/14fe07ee-e75b-4bc9-b72a-5c3aefa76166">
+The majority of the dataset falls between 2 and 6.5. A smaller proportion represents levels over 6.5, implying that a large proportion of the dataset is non-diabetic or prediabetic. The curved line shows the average level in the distribution.
+
+### Age-Frequency Histogram & Gender Distribution Chart
+<img width="1000" alt="collab" src="https://github.com/KajK0121/Project-4/assets/140313204/1d7237d7-94e3-4e4a-9f92-557f185cdfeb">
+The histogram displays the distribution of ages in the dataset. The blue line represents a smoothed curve that illustrates the continuous distribution of ages in the data. Although there are outliers, all ages between 18 and 75 are well-represented.
+
+Looking at the Gender Distribution Chart we can see females dominate the dataset. A negligible proportion of the individuals in the dataset did not mention their gender.
+
+
+
+
+
 
 ## Designing-Models
 <img width="500" alt="image" src="https://github.com/KajK0121/Project-4/assets/140313204/76b68c3d-3b6a-4af7-8c36-97f3d89e1b20">
