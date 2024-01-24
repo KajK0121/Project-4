@@ -14,6 +14,7 @@ Final Project
 * [Results](#Results)
 * [Challenges](#Challenges)
 * [Conclusion](#Conclusion)
+* [Refences](References)
 
 
 ## Introduction
@@ -82,14 +83,17 @@ The scatter plots of features show no visual correlation between each other, ind
 The heatmap provides detailed numerical values of correlation for each pair of features. The highest correlation is between blood glucose and diabetes, while the lowest correlation is between BMI and HbA1c. There are no negative correlations, but some correlations can be negligible.
 
 
-
-
-
-
 ## Designing-Models
-<img width="500" alt="image" src="https://github.com/KajK0121/Project-4/assets/140313204/76b68c3d-3b6a-4af7-8c36-97f3d89e1b20">
+
+### Data Preparation
+
+In this stage, we carefully extracted the relevant feature variables by excluding the target variable 'diabetes,' preparing the dataset for subsequent model training. We isolated the key target variable 'diabetes' as it serves as a crucial element for supervised machine learning tasks, allowing us to predict and assess outcomes accurately. Moving forward, we executed data splitting, dividing the dataset into training and test sets. This step is essential to evaluate the model's performance on unseen data, ensuring its ability to generalise beyond the training set. To enhance the model's effectiveness, we implemented feature scaling, standardising the feature variables to maintain consistent scales. Additionally, we addressed the challenge of imbalanced data by strategically undersampling the majority class (non-diabetes) during class balancing, mitigating potential impacts on model performance.
 
 <img width="600" alt="image" src="https://github.com/KajK0121/Project-4/assets/140313204/ae566b25-7718-45d7-8318-ebdb73b6f421">
+
+### Cleaned Data Vs After Preparation
+<img width="500" alt="image" src="https://github.com/KajK0121/Project-4/assets/140313204/1ffe4b4c-d184-4816-8ab6-196c0de07c38">
+<img width="500" alt="image" src="https://github.com/KajK0121/Project-4/assets/140313204/b3eba345-a148-4109-926d-cbdc9c6e7c6d">
 
 ### Algorithms 
 
@@ -167,5 +171,9 @@ recall well, making them effective for classifying various cases. We choose the
 model that suits our project's specific needs
 
 ## Challenges
+The dataset we used for building our models had an imbalance issue, with more records showing negative diabetes statuses. 
+The dataset's large size slowed down processing, making code execution take longer.
 
 ## Conclusion
+
+## References
