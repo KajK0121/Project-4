@@ -1,4 +1,3 @@
-![image](https://github.com/KajK0121/Project-4/assets/140313204/54ee9fd4-e2ca-4dd0-bd98-896988b14fa8)# Project-4
 Final Project
 
 ### Team : Temitope Ajose – Adeogun, Kaj Kabilan, Tamunosaki Miller, Esala kaluperuma, Kaiser
