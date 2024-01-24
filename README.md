@@ -51,7 +51,8 @@ We then exported the cleaned data to SQLite and tested the database in Jupyter N
 Here are some images showcasing the various factors in our dataset and relationships they have with one another. This is all plays a part in the prediction of diabetes.
 
 ### Distribution of HbA1c Level
-<img width="400" alt="image" src="https://github.com/KajK0121/Project-4/assets/140313204/14fe07ee-e75b-4bc9-b72a-5c3aefa76166">
+<img width="600" alt="image" src="https://github.com/KajK0121/Project-4/assets/140313204/14fe07ee-e75b-4bc9-b72a-5c3aefa76166">
+
 The majority of the dataset falls between 2 and 6.5. A smaller proportion represents levels over 6.5, implying that a large proportion of the dataset is non-diabetic or prediabetic. The curved line shows the average level in the distribution.
 
 ### Age-Frequency Histogram & Gender Distribution Chart
