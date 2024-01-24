@@ -61,8 +61,12 @@ The histogram displays the distribution of ages in the dataset. The blue line re
 
 Looking at the Gender Distribution Chart we can see females dominate the dataset. A negligible proportion of the individuals in the dataset did not mention their gender.
 
+### BMI-Frequency Histogram & Distribution of Blood Glucose Chart
+<img width="700" alt="22" src="https://github.com/KajK0121/Project-4/assets/140313204/bf00681b-0d2e-4303-a8e6-606004cd9316">
 
+1) A large proportion of the dataset consists of blood glucose levels between 50 and 200. The proportion of the dataset with blood glucose levels over 200 is very small.
 
+2)It is approximately normally distributed, although a single outlier bin appears in the centre. The curved line shows the smoothed estimation of BMI, indicating a peak at the centre due to the outlier
 
 
 
